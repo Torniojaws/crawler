@@ -1,3 +1,7 @@
+[![GitHub version](https://badge.fury.io/gh/Torniojaws%2Fcrawler.svg)](https://badge.fury.io/gh/Torniojaws%2Fcrawler)
+[![Build Status](https://travis-ci.org/Torniojaws/crawler.svg?branch=master)](https://travis-ci.org/Torniojaws/crawler)
+[![Coverage Status](https://coveralls.io/repos/github/Torniojaws/crawler/badge.svg?branch=master)](https://coveralls.io/github/Torniojaws/crawler?branch=master)
+
 # Crawler
 
 Load a predefined list of URLs and content requirements for each URL, and then
@@ -20,9 +24,9 @@ You can also define an URL: ``python app.py --period 60 --req https://www.exampl
 
 If no time period is given, a default value of 60 seconds is used.
 
-You can also use shortcut flags:
-``-p`` == ``--period``
-``-r`` == ``--req``
+You can also use shortcut flags:  
+``-p`` == ``--period``  
+``-r`` == ``--req``  
 
 ## Installation
 

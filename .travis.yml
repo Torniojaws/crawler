@@ -1,0 +1,16 @@
+language: python
+
+python:
+- '3.5'
+
+service:
+- mysql
+
+install:
+- pip install -r requirements/dev.txt
+
+script:
+- python -m pytest --cov-report= --cov=apps tests/
+
+after_success:
+- coveralls
