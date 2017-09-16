@@ -1,0 +1,16 @@
+# Some artifacts in the root
+.coverage
+test.log
+
+# Python compile artifacts
+__pycache__
+.cache
+*.pyc
+
+# Logs
+logs/
+test_crawlerlog/
+
+# Misc
+.git
+venv/

@@ -1,0 +1,2 @@
+# Used to retrieve data from external URIs
+requests==2.18.4

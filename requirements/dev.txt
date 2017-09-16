@@ -1,0 +1,6 @@
+-r prod.txt
+
+# For running tests and creating coverage reports
+flake8==3.2.0
+pytest==3.2.1
+pytest-cov==2.5.0

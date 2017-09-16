@@ -1,0 +1,5 @@
+delimiter|
+http://www.example.com|This
+http://www.yle.fi|Yleisradio
+http://www.news.com.au|News Limited Copyright
+http://www.doesnotexist.se/something/yes|Hoplaa
